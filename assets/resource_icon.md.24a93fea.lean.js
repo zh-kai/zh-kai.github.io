@@ -1,0 +1,1 @@
+import{_ as e,c as r,o,d as n}from"./app.db8909b8.js";const g=JSON.parse('{"title":"Free Icon","description":"","frontmatter":{},"headers":[],"relativePath":"resource/icon.md","lastUpdated":null}'),t={name:"resource/icon.md"},a=n("",2),l=[a];function i(c,s,h,p,f,_){return o(),r("div",null,l)}var d=e(t,[["render",i]]);export{g as __pageData,d as default};

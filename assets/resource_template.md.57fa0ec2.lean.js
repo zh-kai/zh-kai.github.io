@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as t,d as a}from"./app.db8909b8.js";const d=JSON.parse('{"title":"Free CSS/HTML Template","description":"","frontmatter":{},"headers":[],"relativePath":"resource/template.md","lastUpdated":null}'),o={name:"resource/template.md"},l=a("",2),n=[l];function p(s,i,h,m,c,_){return t(),r("div",null,n)}var g=e(o,[["render",p]]);export{d as __pageData,g as default};
