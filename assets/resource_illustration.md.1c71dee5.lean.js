@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as t,d as a}from"./app.10e64aba.js";const d=JSON.parse('{"title":"Illustration","description":"","frontmatter":{},"headers":[],"relativePath":"resource/illustration.md","lastUpdated":null}'),o={name:"resource/illustration.md"},l=a("",2),n=[l];function i(s,p,h,c,_,f){return t(),r("div",null,n)}var m=e(o,[["render",i]]);export{d as __pageData,m as default};
