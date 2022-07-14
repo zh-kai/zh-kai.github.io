@@ -1,0 +1,1 @@
+import{_ as e,c as r,o,d as a}from"./app.5800437b.js";const u=JSON.parse('{"title":"Colors","description":"","frontmatter":{},"headers":[],"relativePath":"resource/colors.md","lastUpdated":null}'),t={name:"resource/colors.md"},l=a("",2),n=[l];function s(c,i,p,_,d,h){return o(),r("div",null,n)}var m=e(t,[["render",s]]);export{u as __pageData,m as default};
