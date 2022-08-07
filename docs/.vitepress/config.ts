@@ -52,8 +52,12 @@ export default defineConfig({
           ],
         },
         {
-          text: "游戏",
-          items: [{ text: "动森", link: "/resource/animal-crossing" }],
+          text: "动森",
+          items: [
+            { text: "鱼类", link: "/resource/animal-crossing/fish" },
+            { text: "昆虫", link: "/resource/animal-crossing/insect" },
+            { text: "海洋生物", link: "/resource/animal-crossing/halobios" },
+          ],
         },
       ],
       "/code/": [

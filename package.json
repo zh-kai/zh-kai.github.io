@@ -15,7 +15,11 @@
     "vitepress": "^1.0.0-alpha.4",
     "vue": "^3.2.37"
   },
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.27.2",
+    "jsdom": "^20.0.0",
+    "pinyin": "^3.0.0-alpha.4"
+  },
   "postcss": {
     "plugins": {
       "tailwindcss": {},
