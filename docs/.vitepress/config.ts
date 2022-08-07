@@ -51,6 +51,10 @@ export default defineConfig({
             { text: "Colors", link: "/resource/colors" },
           ],
         },
+        {
+          text: "游戏",
+          items: [{ text: "动森", link: "/resource/animal-crossing" }],
+        },
       ],
       "/code/": [
         {
