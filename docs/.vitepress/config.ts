@@ -27,7 +27,10 @@ export default defineConfig({
       "/blog/": [
         {
           text: "Blogs",
-          items: [{ text: "介绍", link: "/blog/" }],
+          items: [
+            { text: "介绍", link: "/blog/" },
+            { text: "Ethereum", link: "/blog/ethereum" },
+          ],
         },
         {
           text: "Best Practices",
