@@ -1,5 +1,9 @@
 import { defineConfig } from "vitepress";
 
+// @note: math plugin
+import mathjax3 from "markdown-it-mathjax3";
+const customElements = ["mjx-container"];
+
 export default defineConfig({
   base: "/",
   lang: "zh",
@@ -21,7 +25,7 @@ export default defineConfig({
     nav: [
       { text: "Blog", link: "/blog/" },
       { text: "Resources", link: "/resource/" },
-      { text: "Examples", link: "/code/" },
+      { text: "Code", link: "/code/" },
     ],
     sidebar: {
       "/blog/": [
@@ -30,6 +34,7 @@ export default defineConfig({
           items: [
             { text: "介绍", link: "/blog/" },
             { text: "Ethereum", link: "/blog/ethereum" },
+            { text: "Nothing", link: "/blog/nothing" },
           ],
         },
         {
@@ -68,7 +73,24 @@ export default defineConfig({
           text: "Demos",
           items: [{ text: "Button", link: "/code/button" }],
         },
+        {
+          text: "Snippets",
+          items: [{ text: "Math", link: "/code/math" }],
+        },
       ],
     },
   },
+
+  markdown: {
+    config: (md) => {
+      md.use(mathjax3);
+    },
+  },
+  // vue: {
+  //   template: {
+  //     compilerOptions: {
+  //       isCustomElement: (tag) => customElements.includes(tag),
+  //     },
+  //   },
+  // },
 });
