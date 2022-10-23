@@ -11,8 +11,6 @@ export default defineConfig({
   description: "个人笔记",
   lastUpdated: true,
 
-  outDir: "../dist/",
-
   themeConfig: {
     siteTitle: "慎独",
     socialLinks: [
@@ -100,11 +98,4 @@ export default defineConfig({
       md.use(mathjax3);
     },
   },
-  // vue: {
-  //   template: {
-  //     compilerOptions: {
-  //       isCustomElement: (tag) => customElements.includes(tag),
-  //     },
-  //   },
-  // },
 });
