@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "vitepress dev docs --port 4000",
-    "build": "vitepress build docs",
-    "serve": "vitepress serve docs"
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
