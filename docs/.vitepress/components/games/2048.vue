@@ -18,7 +18,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { ref, reactive, onMounted } from "vue";
 
 const score = ref(0);
@@ -28,13 +28,13 @@ const gameStatus = reactive([
   [0, 0, 0, 0],
   [0, 0, 0, 0],
 ]);
-const getRow = (index: number) => Math.floor((index - 1) / 4);
-const getCol = (index: number) => (index - 1) % 4;
+const getRow = (index) => Math.floor((index - 1) / 4);
+const getCol = (index) => (index - 1) % 4;
 
 const checkOver = () => {
   return !gameStatus.some((r) => r.includes(0));
 };
-const random = (min: number, max: number) => Math.round(Math.random() * (max - min) + min);
+const random = (min, max) => Math.round(Math.random() * (max - min) + min);
 const randomGridItem = () => {
   const i = random(1, 16);
   const _current = gameStatus[getRow(i)][getCol(i)];
@@ -76,7 +76,7 @@ const restart = () => {
   randomGridItem();
 };
 
-const merge = (_before: number, _after: number) => {
+const merge = (_before, _after) => {
   const before = gameStatus[getRow(_before)][getCol(_before)];
   const after = gameStatus[getRow(_after)][getCol(_after)];
 
