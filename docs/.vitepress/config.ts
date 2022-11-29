@@ -62,6 +62,7 @@ export default defineConfig({
             { text: "Template", link: "/resource/template" },
             { text: "Tools", link: "/resource/tools" },
             { text: "Colors", link: "/resource/colors" },
+            { text: "Platforms", link: "/resource/platform" },
           ],
         },
         {
