@@ -13,3 +13,36 @@
 :::info 类型检查
 类型检查确保程序遵守类型系统的规则。编译器在转化代码时进行类型检查，而运行时在执行代码时进行类型检查。编译器中负责实施类型规则的组件叫类型检查器。
 :::
+
+## 基本类型
+
+### 空类型 never
+
+即不能有任何类型，其可取值的集合是一个空集合。我们任何时候都无法实例化这种类型的变量。使用空类型来表示不可能。
+
+#### 自制空类型
+
+```typescript
+declare const EmptyType: unique symbol;
+class Empty {
+  [EmptyType]: void;
+  private constructor() {}
+}
+```
+
+### 单元类型 void
+
+只有一个可能的值。对于这种类型的变量，检查他的值是没有意义的，他只能是一个值。当函数结果没有意义时，考虑使用单元类型。
+
+#### 自制单元类型
+
+```typescript
+declare const UnitType: unique symbol;
+class Unit {
+  [UnitType]: void;
+  static readonly value: Unit = new Unit();
+  private constructor() {}
+}
+```
+
+### 布尔类型 boolean
