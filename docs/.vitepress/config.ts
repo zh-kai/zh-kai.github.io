@@ -81,7 +81,10 @@ export default defineConfig({
         },
         {
           text: "Demos",
-          items: [{ text: "Button", link: "/code/button" }],
+          items: [
+            { text: "Button", link: "/code/button" },
+            { text: "Animation", link: "/code/animation" },
+          ],
         },
         {
           text: "Snippets",
