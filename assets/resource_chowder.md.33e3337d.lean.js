@@ -1,0 +1,1 @@
+import{_ as e,o as r,c as t,a}from"./app.41b9aa78.js";const m=JSON.parse('{"title":"Chowder","description":"","frontmatter":{},"headers":[],"relativePath":"resource/chowder.md","lastUpdated":1658834914000}'),o={name:"resource/chowder.md"},c=a("",3),s=[c];function _(d,n,i,l,h,p){return r(),t("div",null,s)}const u=e(o,[["render",_]]);export{m as __pageData,u as default};
