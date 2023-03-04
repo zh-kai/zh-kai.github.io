@@ -28,10 +28,20 @@ export default defineConfig({
     ],
     nav: [
       { text: "Blog", link: "/blog/" },
+      { text: "Notes", link: "/notes/" },
       { text: "Resources", link: "/resource/" },
       { text: "Code", link: "/code/" },
     ],
     sidebar: {
+      "/notes/": [
+        {
+          text: "Ethereum",
+          items: [
+            { text: "什么是以太坊？", link: "/notes/mastering-ethereum/1.md" },
+            { text: "以太坊背后的密码学", link: "/notes/mastering-ethereum/2.md" },
+          ],
+        },
+      ],
       "/blog/": [
         {
           text: "Blogs",
