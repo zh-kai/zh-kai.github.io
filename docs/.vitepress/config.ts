@@ -43,6 +43,10 @@ export default defineConfig({
             { text: '交易', link: '/notes/mastering-ethereum/4.md' },
           ],
         },
+        {
+          text: 'Linux',
+          items: [{ text: 'note', link: '/notes/linux.md' }],
+        },
       ],
       '/blog/': [
         {
