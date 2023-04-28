@@ -1,0 +1,5 @@
+import{_ as e,o as a,c as s,a as t,b as n}from"./app.69c535c4.js";const b=JSON.parse('{"title":"CSS","description":"","frontmatter":{},"headers":[{"level":2,"title":"\u7B80\u5199","slug":"\u7B80\u5199","link":"#\u7B80\u5199","children":[]},{"level":2,"title":"\u8DEF\u5F84\u52A8\u753B","slug":"\u8DEF\u5F84\u52A8\u753B","link":"#\u8DEF\u5F84\u52A8\u753B","children":[]}],"relativePath":"blog/css.md","lastUpdated":1673074671000}'),o={name:"blog/css.md"},r=t("",5),l=n("iframe",{height:"400",style:{width:"100%"},scrolling:"no",title:"css path animation",src:"https://codepen.io/zh_kai/embed/rNrWEJR?default-tab=result",frameborder:"no",loading:"lazy",allowtransparency:"true",allowfullscreen:"true"},`
+  See the Pen <a href="https://codepen.io/zh_kai/pen/rNrWEJR">
+  css path animation</a> by zhkai (<a href="https://codepen.io/zh_kai">@zh_kai</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+`,-1),c=[r,l];function i(d,p,h,_,f,u){return a(),s("div",null,c)}const m=e(o,[["render",i]]);export{b as __pageData,m as default};
